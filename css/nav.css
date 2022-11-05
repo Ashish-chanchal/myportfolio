@@ -32,6 +32,7 @@ div > .nav-content-down1> ul > li a:hover{
     border-radius: 20px;
     color: white;
 }
+
 div>.nav-content-down1{
     background-color: white;
     text-align: center;
@@ -46,6 +47,10 @@ div ul .nav3{
 
 }
 
+div > ul >li> .shape-size{
+  width: 60px;
+  height: 40px;
+}
 /* Resopnsive nav bar */
 .nav-content-down2{
   display: none;
