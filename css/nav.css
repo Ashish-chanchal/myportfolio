@@ -118,6 +118,7 @@ div ul .nav3{
       cursor: pointer;
      } 
   }
+
 /* Responsive display */
 @media screen and (max-width: 600px) {
     div div .right{
@@ -126,6 +127,21 @@ div ul .nav3{
     div > .nav-content-down1{
         display: none;
      }
+     .images{
+      display: none;
+     }
+  }
+  @media screen and (max-width: 1150px){
+    .images{
+           width: 300px;
+           height: 400px;
+       }
+  }
+  @media screen and (max-width: 910px){
+    .images{
+           width: 150px;
+           height: 200px;
+       }
   }
 
 
