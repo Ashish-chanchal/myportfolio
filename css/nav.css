@@ -1,0 +1,131 @@
+/* navigation upper content */
+div > .nav-content-up > a i{
+    padding: 10px 10px;
+    
+    
+}
+a{
+    color: white;
+}
+div > .nav-content-up{
+    background-color: rgb(43, 42, 42);
+}
+div div .right{
+    float: right;
+    margin-right: 30px;
+}
+/* navigation down content */
+div > .nav-content-down1> ul > li a{
+    display: inline-flex;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+div > .nav-content-down1> ul > li{
+    
+    display: inline;
+}
+div > .nav-content-down1> ul > li a:hover{
+    background-color: rgb(245, 114, 114);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: white;
+}
+div>.nav-content-down1{
+    background-color: white;
+    text-align: center;
+}
+/* css of name displayed */
+div ul .nav3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-left:50px;
+    margin-right:50px;
+    cursor: pointer;
+
+}
+
+/* Resopnsive nav bar */
+.nav-content-down2{
+  display: none;
+}
+.Navbar {
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    padding: 16px;
+    font-family: sans-serif;
+    color: white;
+  }
+  
+  .Navbar__Link {
+    padding-right: 8px;
+    text-decoration: none;
+  }
+  .Navbar__Link a:hover{
+    background-color: rgb(245, 114, 114);
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    
+  }
+  .Navbar__Link a{
+    text-decoration: none;
+  }
+  
+  .Navbar__Items {
+    display: flex;
+    text-align: right;
+  }
+  
+  .Navbar__Items--right {
+    margin-left:auto;
+  }
+  
+  .Navbar__Link-toggle {
+    display: none;
+  }
+  .nav-title{
+    cursor: pointer;
+    width: 66px;
+    height: 53px;
+  }
+  @media only screen and (max-width: 600px) {
+    .nav-content-down2{
+      display: block;
+    }
+    .Navbar__Items,
+    .Navbar {
+      flex-direction: column;
+    }
+      
+  .Navbar__Items {
+      display:none;
+    }
+      
+  .Navbar__Items--right {
+      margin-left:0;
+    }
+      
+  .Navbar__ToggleShow {
+      display: flex;
+    }
+      
+  .Navbar__Link-toggle {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+     } 
+  }
+/* Responsive display */
+@media screen and (max-width: 600px) {
+    div div .right{
+        display: none;
+    }
+    div > .nav-content-down1{
+        display: none;
+     }
+  }
+
+
