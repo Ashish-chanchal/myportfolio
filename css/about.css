@@ -1,14 +1,16 @@
 .heading{
     font-family: 'Dancing Script', cursive;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    font-size: 30px;
 }
-h1:hover{
-    background-color: rgb(245, 114, 114);
-    padding: 7px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    color: white;
+.main-about-content{
+    padding: 20px;
+}
+.about-content{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    font: 1.4rem/1.5 'Google Sans', sans-serif;
+}
+.right{
+    padding: 30px;
 }
