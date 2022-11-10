@@ -7,10 +7,10 @@
 }
 .about-content{
     display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
     font: 1.4rem/1.5 'Google Sans', sans-serif;
 }
-.right{
-    padding: 30px;
-}
+
